@@ -11,13 +11,23 @@ require "test/unit"
 #######################################################
 
 def say_hello
+    return say_hello="Hi!"
 end
 
 def shout(input)
+    shout = input.upcase
+    return shout
 end
 
 def secret_code(input)
+  ssize = input.size
+  if ssize < 6
+    return "YDWOh"
+  else
+    return "un u Og"
+  end
 end
+
 
 # DO NOT CHANGE THE CODE BELOW THIS LINE.
 #
